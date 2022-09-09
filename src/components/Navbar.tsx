@@ -5,7 +5,7 @@ import Dropdown from "./Dropdown";
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-50 drop-shadow-md fixed w-full">
+    <div className="bg-gray-50 drop-shadow-md fixed w-full z-20">
       <div className="flex justify-between items-center transition ease-in-out delay-200 h-16 bg-gray-50 mx-2">
         <div className="flex w-full md:w-1/2">
           <div className="flex w-full">

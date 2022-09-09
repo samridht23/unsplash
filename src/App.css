@@ -1,0 +1,17 @@
+@font-face {
+    font-family: NeueNormal;
+    src: url(./fonts/NeueHaasDisplayRoman.ttf) format('truetype');
+}
+@font-face {
+    font-family: NeueThin;
+    src: url(./fonts/NeueHaasDisplayThin.ttf) format('truetype');
+}
+@font-face {
+    font-family: NeueMedium;
+    src: url(./fonts/NeueHaasDisplayMediu.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: NeueNormal;
+}

@@ -28,9 +28,6 @@ const Body = () =>{
   return (
     <div>
       <div>
-        {imageData.map((e:imagedatatype)=>(
-          <DesktopCard value={e.id} url={e.url.regular}/>
-        ))}
       </div>
     </div>
   )

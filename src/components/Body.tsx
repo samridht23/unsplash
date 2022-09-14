@@ -26,7 +26,7 @@ const Body = () => {
     getImages();
   }, []);
   return (
-    <div className="lg:mx-40 xl:mx-56 2xl:mx-72 my-4">
+    <div className="md:mx-28 lg:mx-40 xl:mx-56 2xl:mx-72 my-4">
       <div className="md:columns-2 lg:columns-3 gap-2">
         {/*
       {imgData.map((e)=>(
